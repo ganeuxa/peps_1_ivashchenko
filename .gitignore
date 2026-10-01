@@ -1,0 +1,36 @@
+# Claude Code
+.claude/
+
+# Proteus: служебные файлы и автокопии
+*.workspace
+Project Backups/
+*_backup.pdsprj
+*.pdsbak
+Last Loaded *.pdsbak
+
+# Multisim: резервные копии
+*(Security copy)
+*.ms14 (Security copy)
+
+# Промежуточные файлы сборки (SDCC / arm-none-eabi-gcc)
+*.o
+*.obj
+*.rel
+*.lst
+*.rst
+*.sym
+*.asm
+*.lk
+*.mem
+*.ihx
+*.map
+*.cdb
+*.adb
+
+# Материалы преподавателя не публикуем
+Материалы от преподавателя/
+
+# Системный мусор
+Thumbs.db
+desktop.ini
+~$*
